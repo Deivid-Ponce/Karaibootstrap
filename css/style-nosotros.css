@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(108, 20, 0);
+    max-width: 100%;
+    display: flex;
+
+}
+header a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+header a:hover{
+    color: #908d01;
+
+    
+}
+header img {
+    width: 50px;
+    padding-left: 5px;
+}
+main img {
+    width: 100%;
+}
+main img {
+    width: 100%;
+}
+
+main .separador img {
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main .separador .barraleft {
+    width: 30%;
+    height: .5vh;
+    background-color: #908d01;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+main .separador .separador__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+main .separador .barraright {
+    width: 30%;
+    height: .5vh;
+    background-color: #908d01;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+main .separador h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #676501;
+    font-size: 50px;
+    text-shadow: 10px 0px 5px rgba(32, 32, 32, 0.3);
+}
+
+main .separador p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: large;
+    color: #4d4d4d;
+}
+
+main .separador p:last-child {
+    padding-bottom: 50px;
+}
+main .nosotros img{
+    width: 250px;
+}
+main .nosotros .nosotros__parrafo {
+    
+    padding-top: 30px;
+    text-align: justify;
+    line-height:30px;
+}
+main .nosotros {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+main .nosotros p:last-child{
+    margin-bottom: 50px;
+}
+main .separador__amarillo {
+    max-width: 100%;
+    height: 10vh;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #97001e;
+    font-size: large;
+}
+
+footer .ubicacion {
+    display: row;
+    flex-wrap: wrap;
+}
+
+footer .redes__sociales img {
+    width: 50px;
+    margin: 5px;
+}
+
+footer .redes__sociales {
+    margin-top: 15px;
+    box-sizing: border-box;
+
+}
+footer .redes__sociales img:hover {
+    transform: scale(1.2);
+}
+
+header img:hover {
+    transform: scale(1.2);
+}
+

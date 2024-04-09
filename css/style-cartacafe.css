@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(108, 20, 0);
+    max-width: 100%;
+    display: flex;
+}
+
+header img {
+    width: 50px;
+    padding-left: 5px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: auto;
+}
+
+header ul li {
+    margin-right: 15px;
+    color: #ffffff;
+    font-size: 20px;
+}
+main img {
+    width: 100%;
+}
+
+main .menu .carta__cafe {
+    background-color: rgb(108, 20, 0);
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main .menu {
+    text-align: center;
+}
+main .menu .cafe__tipos{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: rgb(108, 20, 0);
+    font-weight: 600;
+}
+main .menu .cafe__tipos p{
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+main .menu img{
+    width: 250px;
+}
+main .separador__amarillo {
+    max-width: 100%;
+    height: 10vh;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #97001e;
+    font-size: large;
+}
+
+footer .ubicacion {
+    display: row;
+    flex-wrap: wrap;
+}
+
+footer .redes__sociales img {
+    width: 50px;
+    margin: 5px;
+}
+
+footer .redes__sociales {
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+footer .redes__sociales img:hover {
+    transform: scale(1.2);
+}
+
+header img:hover {
+    transform: scale(1.2);
+}
+header ul li:hover {
+    color: #ffff00;
+    font-weight: bold;
+}

@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(108, 20, 0);
+    max-width: 100%;
+    display: flex;
+}
+header .btn-secondary{
+    background-color: #908d01;
+}
+header img{
+    width: 50px;
+    padding-left: 5px;
+}
+header ul{
+   display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: auto;
+    text-decoration: none;
+}
+header ul li {
+   margin-right: 15px;
+   color: #ffffff;
+   font-size: 20px;
+    text-decoration: none;
+}
+main img{
+    width: 100%;
+}
+main .separador img{
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main .separador .barraleft{
+    width: 30%;
+    height: .5vh;
+    background-color: #908d01;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+main .separador .separador__logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+main .separador .barraright {
+    width: 30%;
+    height: .5vh;
+    background-color: #908d01;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+main .separador h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #676501;
+    font-size: 50px;
+    text-shadow: 10px 0px 5px rgba(32, 32, 32, 0.3);
+}
+main .separador p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: large;
+    color: #4d4d4d;
+}
+main .separador p:last-child {
+    padding-bottom: 50px;
+}
+main .separador2{
+    color: #97001e;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+main .separador2 h2 {
+    padding-bottom: 50px;
+}
+main .separador2 .contenedor__categoria{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main .separador2 .contenedor__categoria .contenedor__cafe img {
+    width: 200px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 10px 10px #908d01;
+}
+main .separador2 .contenedor__categoria .contenedor__otras__bebidas img {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 10px 10px #908d01;
+}
+main .separador2 .contenedor__categoria .contenedor__pasteles img {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 10px 10px #908d01;
+}
+main .separador2 .contenedor__categoria .contenedor__sandwiches img {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 10px 10px #908d01;
+}
+main .separador2 .contenedor__categoria .contenedor__cafe h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main .separador2 .contenedor__categoria .contenedor__otras__bebidas h3 {
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
+main .separador2 .contenedor__categoria .contenedor__pasteles h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main .separador2 .contenedor__categoria .contenedor__sandwiches h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main .separador3 h2 {
+    color: #97001e;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+main .separador3 .contenedor__destacado{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main .separador3 .contenedor__destacado .contenedor__imagen img{
+    width: 275px;
+    border-radius: 20%;
+    box-shadow: 20px 20px 20px 20px rgba(32, 32, 32, 0.3);
+    margin-bottom: 50px;
+    
+}
+main .separador3 .contenedor__destacado .contenedor__imagen { 
+    text-align: center;
+ 
+}
+main .separador3 .contenedor__destacado .contenedor__text {
+    
+    text-align: center;
+    margin-bottom: 50px;
+}
+main .separador3 .contenedor__destacado .contenedor__text p {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #676501;
+    
+}
+main .separador3 .contenedor__destacado .contenedor__text h3 {
+    font-size: 25px;
+    text-shadow: 10px 0px 10px rgba(32, 32, 32, 0.3);
+}
+main .separador3  .barraright {
+    width: 10%;
+    height: .5vh;
+    background-color: #908d01;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+main .separador3 .barraleft {
+    width: 10%;
+    height: .5vh;
+    background-color: #908d01;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+main .separador3 .separador__logo{
+    display: flex;
+    justify-content: center;
+}
+main .separador__amarillo{
+    max-width: 100%;
+    height: 10vh;
+    background-color: yellow;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #97001e;
+    font-size: large;
+}
+footer .ubicacion{
+    display: row;
+    flex-wrap: wrap;
+}
+footer .redes__sociales img{
+    width: 50px;
+    margin: 5px;
+}
+footer .redes__sociales {
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+main .separador2 .contenedor__categoria .contenedor__cafe img:hover {
+    
+    box-shadow: 10px 10px 10px 10px #97001e;
+    transform: scale(1.1);
+}
+main .separador2 .contenedor__categoria .contenedor__otras__bebidas img:hover {
+
+    box-shadow: 10px 10px 10px 10px #97001e;
+    transform: scale(1.1);
+}
+main .separador2 .contenedor__categoria .contenedor__pasteles img:hover {
+
+    box-shadow: 10px 10px 10px 10px #97001e;
+    transform: scale(1.1);
+}
+main .separador2 .contenedor__categoria .contenedor__sandwiches img:hover {
+
+    box-shadow: 10px 10px 10px 10px #97001e;
+    transform: scale(1.1);
+}
+footer .redes__sociales img:hover {
+    transform: scale(1.2);
+}
+header img:hover {
+    transform: scale(1.2);
+}
+header ul li:hover {
+    color: #ffff00;
+    font-weight: bold;
+}
